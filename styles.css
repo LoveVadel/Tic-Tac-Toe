@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+}
+
+.container{
+    text-align: center;
+}
+
+.gameBoard{
+    border: 2px solid black;
+    width: 60%;
+    margin: 5px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 15vw);
+}
+
+.gameBoard > div{
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 7vw;
+    cursor: pointer;
+}
+
+.gameBoard > div:active{
+    border: 2px solid yellow;
+}
+
+button{
+    background-color: brown;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+button:hover{
+    padding: 5px 20px;
+    font-weight: bold;
+}

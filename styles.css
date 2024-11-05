@@ -42,3 +42,8 @@ button:hover{
     padding: 5px 20px;
     font-weight: bold;
 }
+
+.no-clicks{
+    pointer-events: none;
+    cursor: pointer;
+}
